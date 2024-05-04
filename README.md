@@ -15,18 +15,17 @@ We have historical order data including features such as `market_id`, `store_id`
 
 We preprocessed the data by handling missing values, encoding categorical variables, and scaling numerical features to ensure faster convergence with the neural network model.
 
-**Model Architecture:**
-Our neural network model consists of multiple dense layers with ReLU activation functions. We used the Adam optimizer and Mean Squared Error loss function for training. To prevent overfitting, we included Dropout layers and Batch Normalization.
+# Model Architecture
+Our neural network model consists of multiple dense layers with ReLU activation functions. We used the Adam optimizer, Glorot uniform kernel initializer  and Mean Squared Error loss function for training. 
 
-**Training and Evaluation:**
+# Training and Evaluation
 We split the data into training, validation, and test sets and trained the model on the training data. We evaluated the model's performance on the validation set and fine-tuned the hyperparameters to improve performance.
 
-**Results:**
-Our model achieved impressive results with an accuracy of X% on the test set. The estimated delivery time provided by our model has significantly improved the customer experience by providing accurate delivery estimates.
+# Results
+Our model achieved impressive results with below mentioned metrics on the test set. 
 
-**Conclusion:**
-By leveraging the power of Neural Networks, we have developed an efficient delivery time estimation model that has optimized our delivery operations and enhanced the overall customer experience. With this model in place, we are better equipped to handle the complexities of intra-city logistics and continue providing seamless service to our customers.
+Mean Squared Error: 175.83023181375756
+Root Mean Squared Error: 13.260099238458118
+Mean Absolute Error: 10.295266447127483
 
---- 
-
-You can modify this content as per your specific use case and results achieved. Let me know if you need further assistance!
+The estimated delivery time provided by our model has significantly improved the delivery estimates.
