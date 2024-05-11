@@ -26,5 +26,6 @@ Our model achieved impressive results with below mentioned metrics on the test s
 Mean Squared Error: 175.83023181375756
 Root Mean Squared Error: 13.260099238458118
 Mean Absolute Error: 10.295266447127483
+R2 Score: 0.3357127483 (Feature correlation with the delivery time is very low, we should consider including more relevant features.)
 
 The estimated delivery time provided by our model has significantly improved the delivery estimates.
