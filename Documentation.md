@@ -1,4 +1,4 @@
-# Optimizing Porter Delivery Estimates
+# Enhancing Porter Delivery Estimates: Leveraging Advanced Techniques for Precision and Efficiency
 
 **Project Overview**
 
@@ -22,7 +22,7 @@ After splitting the data into training, validation, and test sets, we trained th
 
 **Results and Recommendations**
 
-Our model achieved impressive results on the test set, with Mean Squared Error, Root Mean Squared Error, Mean Absolute Error, and R2 Score metrics indicating significant improvement in delivery time estimation accuracy.
+Our model achieved impressive results on the test set, with 33% decrease in regression loss indicating significant improvement in delivery time estimation accuracy.
 
 **Actionable Insights & Recommendations**
 
