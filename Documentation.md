@@ -1,4 +1,4 @@
-# Optimizing Porter Delivery Estimates Using Advanced Neural Networks for Enhanced Accuracy
+# Optimizing Porter Delivery Estimates
 
 **Project Overview**
 
